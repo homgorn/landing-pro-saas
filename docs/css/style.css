@@ -230,15 +230,125 @@ header {
   color: var(--primary);
 }
 
+.section-title {
+  text-align: center;
+  margin: 100px 0 50px;
+}
+
+.section-title h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.section-title p {
+  color: var(--subtext);
+  font-size: 1.1rem;
+}
+
+/* Problem Solution */
+.problem-solution {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.ps-card {
+  padding: 3rem;
+  border-radius: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.ps-card.problem { border-color: rgba(255, 65, 54, 0.2); }
+.ps-card.solution { border-color: rgba(60, 203, 127, 0.2); }
+
+.ps-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.ps-card ul {
+  list-style: none;
+  color: var(--subtext);
+}
+
+.ps-card ul li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.ps-card ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
+/* Investment Box */
+.investment-box {
+  background: linear-gradient(135deg, var(--surface), #1a1f2e);
+  border: 2px solid var(--primary);
+  padding: 4rem;
+  border-radius: 32px;
+  text-align: center;
+  margin: 100px 0;
+  box-shadow: 0 20px 50px rgba(157, 92, 252, 0.15);
+}
+
+.investment-box h2 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.investment-box p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Roadmap */
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.roadmap-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.roadmap-date {
+  font-weight: 900;
+  color: var(--primary);
+  min-width: 100px;
+}
+
+.roadmap-content {
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  flex: 1;
+}
+
 .bottom-bar {
   padding: 40px 0;
   border-top: 1px solid var(--border);
   text-align: center;
   font-size: 0.75rem;
-  color: var(--555);
+  color: var(--subtext);
 }
 
 @media (max-width: 768px) {
   .hero h1 { font-size: 3rem; }
-  .services-grid { grid-template-columns: 1fr; }
+  .services-grid, .problem-solution { grid-template-columns: 1fr; }
+  .ps-card { padding: 2rem; }
 }

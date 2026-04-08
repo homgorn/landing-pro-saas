@@ -1,0 +1,140 @@
+:root {
+  --bg: #080808;
+  --surface: #0f0f0f;
+  --primary: #c8a96e;
+  --text: #edebe5;
+  --subtext: #a8a49b;
+  --border: rgba(200, 169, 110, 0.1);
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.lang-nav a {
+  color: var(--subtext);
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-left: 1.5rem;
+  transition: color 0.3s;
+}
+
+.lang-nav a:hover, .lang-nav a.active {
+  color: var(--primary);
+}
+
+.hero {
+  padding: 100px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #fff, var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--subtext);
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--primary);
+  color: var(--bg);
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background: #e2c99a;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 50px 0;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2.5rem;
+  border-radius: 20px;
+  transition: border 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(200, 169, 110, 0.3);
+}
+
+.card h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: var(--subtext);
+  font-size: 0.95rem;
+}
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  color: var(--subtext);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .hero { padding: 60px 0; }
+  .features { grid-template-columns: 1fr; }
+}

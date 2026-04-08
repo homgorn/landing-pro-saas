@@ -50,3 +50,24 @@ El sistema utiliza un ciclo de 5 etapas para garantizar la calidad:
 ---
 
 **Construyendo el futuro del diseño automatizado. Un prompt a la vez.**
+
+---
+
+## 📬 Contacto y Soporte
+
+¿Interesado в asociaciones, inversiones o soporte técnico? Contáctanos directamente:
+
+- **Email:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Inquiry%3A%20Landing%20Pro%20SaaS)
+- **Telegram:** [@realhikaz](https://t.me/realhikaz)
+- **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=Hola%2C%20estoy%20interesado%20en%20una%20asociaci%C3%B3n%20para%20Landing%20Pro%20SaaS.)
+
+
+---
+
+## 📬 Contacto y Soporte
+
+¿Interesado en asociaciones, inversiones o soporte técnico? Contáctanos directamente:
+
+- **Email:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Inquiry%3A%20Landing%20Pro%20SaaS)
+- **Telegram:** [@realhikaz](https://t.me/realhikaz)
+- **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=Hola%2C%20estoy%20interesado%20en%20una%20asociaci%C3%B3n%20para%20Landing%20Pro%20SaaS.)

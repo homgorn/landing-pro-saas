@@ -50,3 +50,13 @@
 ---
 
 **定义自动化设计的未来。一次一个提示词。**
+
+---
+
+## 📬 联系与支持
+
+对合作伙伴关系、投资 или 技术支持感兴趣？请直接联系：
+
+- **电子邮件:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Inquiry%3A%20Landing%20Pro%20SaaS)
+- **Telegram:** [@realhikaz](https://t.me/realhikaz)
+- **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=您好，我对合作关系感兴趣。)

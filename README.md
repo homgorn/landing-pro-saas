@@ -83,3 +83,14 @@ The system utilizes a 5-stage sovereign pipeline to ensure consistency and quali
 ---
 
 **Building the future of automated design. One prompt at a time.**
+
+---
+
+## 📬 Contact & Support
+
+Interested in partnership, investment, or technical support? Reach out directly:
+
+- **Email:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Partnership%20Inquiry%3A%20Landing%20Pro%20SaaS)
+- **Telegram:** [@realhikaz](https://t.me/realhikaz)
+- **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=Hello%2C%20I%27m%20interested%20in%20discussing%20a%20partnership%20for%20Landing%20Pro%20SaaS.)
+

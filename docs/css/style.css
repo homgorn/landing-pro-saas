@@ -47,15 +47,27 @@ header {
   border-bottom: 1px solid var(--border);
 }
 
-.logo {
-  font-weight: 900;
-  font-size: 1.5rem;
-  letter-spacing: -0.5px;
-  background: linear-gradient(135deg, #fff, var(--primary));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-decoration: none;
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-socials {
+  display: flex;
+  gap: 1rem;
+  border-left: 1px solid var(--border);
+  padding-left: 1.5rem;
+}
+
+.header-socials a {
+  color: var(--subtext);
+  transition: all 0.3s;
+}
+
+.header-socials a:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
 }
 
 .lang-nav {
@@ -190,44 +202,80 @@ header {
   font-size: 3rem;
 }
 
-/* SEO Footer */
-.seo-footer {
-  margin-top: 100px;
-  padding: 80px 0;
-  border-top: 1px solid var(--border);
+/* Tech Pipeline */
+.tech-pipeline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 60px 0;
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: 32px;
+  border: 1px solid var(--border);
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 4rem;
+.pipeline-step {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
 }
 
-.footer-col h4 {
-  color: #fff;
-  margin-bottom: 1.5rem;
+.step-num {
+  display: block;
   font-size: 0.75rem;
-  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--primary);
+  margin-bottom: 1rem;
   letter-spacing: 2px;
 }
 
-.footer-col ul {
-  list-style: none;
+.pipeline-step h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
-.footer-col ul li {
-  margin-bottom: 0.75rem;
-}
-
-.footer-col ul li a {
+.pipeline-step p {
+  font-size: 0.9rem;
   color: var(--subtext);
-  text-decoration: none;
-  font-size: 0.85rem;
-  transition: color 0.3s;
 }
 
-.footer-col ul li a:hover {
-  color: var(--primary);
+.pipeline-arrow {
+  color: var(--border);
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/* FAQ Grid */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 60px 0;
+}
+
+.faq-item {
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.faq-item:hover {
+  border-color: var(--primary);
+  background: rgba(157, 92, 252, 0.05);
+}
+
+.faq-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.faq-item p {
+  font-size: 0.95rem;
+  color: var(--subtext);
 }
 
 /* Animations */
@@ -376,6 +424,9 @@ header {
 
 @media (max-width: 768px) {
   .hero h1 { font-size: 3rem; }
-  .services-grid, .problem-solution { grid-template-columns: 1fr; }
+  .services-grid, .problem-solution, .tech-pipeline { grid-template-columns: 1fr; flex-direction: column; }
+  .pipeline-arrow { transform: rotate(90deg); margin: 10px 0; }
   .ps-card { padding: 2rem; }
+  .logo-group { gap: 0.5rem; }
+  .header-socials { display: none; }
 }

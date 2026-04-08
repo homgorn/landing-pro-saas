@@ -1,6 +1,23 @@
 {
   "name": "landing-pro-saas",
   "version": "0.1.0",
+  "description": "Universal AI Landing Page Generator SaaS using Next.js 16, Multi-Agent Orchestration, and Design DNA Extraction.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homgorn/landing-pro-saas.git"
+  },
+  "keywords": [
+    "ai",
+    "saas",
+    "landing-page-generator",
+    "nextjs",
+    "multi-agent",
+    "seo-optimized",
+    "vision-analysis",
+    "automation"
+  ],
+  "author": "homgorn",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",

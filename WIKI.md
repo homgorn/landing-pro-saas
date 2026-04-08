@@ -1,3 +1,5 @@
+# 📐 Universal Landing Pro Wiki: Technical & SEO Specification
+
 Welcome to the official technical Wiki for **Landing Pro SaaS**. This document defines the architectural standards and SEO optimization strategies implemented within the core engine.
 
 ---

@@ -60,3 +60,14 @@
 - **电子邮件:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Inquiry%3A%20Landing%20Pro%20SaaS)
 - **Telegram:** [@realhikaz](https://t.me/realhikaz)
 - **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=您好，我对合作关系感兴趣。)
+
+---
+
+## 🗺 战略路线图 2026-2027
+
+| 阶段 | 里程碑 | 状态 | 描述 |
+| :--- | :--- | :--- | :--- |
+| **2026 Q2** | **Genesis & MAO Alpha** | ✅ 已完成 | 核心多代理编排架构和设计 DNA 提取引擎发布。 |
+| **2026 Q3** | **Global API Node** | 🚀 进行中 | 为 B2B 合作伙伴部署无头生成 API 和多节点分发。 |
+| **2026 Q4** | **E-commerce Core** | ⏳ 计划中 | 将设计提取扩展到复杂的交易布局和仪表板架构。 |
+| **2027** | **Self-Optimization** | 🔮 愿景 | 能够根据真实流量自动优化 UI 的智能代理。 |

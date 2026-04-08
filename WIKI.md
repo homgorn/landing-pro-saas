@@ -72,3 +72,15 @@ Integrity is guaranteed by **Vitest** for unit tests and **Type Check** for stru
 ---
 
 **Landing Pro SaaS — Engineering the Professional Future of AI Development.**
+
+---
+
+## 🗺 Strategic Roadmap 2026-2027
+
+| Phase | Milestone | Status | Description |
+| :--- | :--- | :--- | :--- |
+| **Q2 2026** | **Genesis & MAO Alpha** | ✅ Done | Core Multi-Agent Orchestration architecture and Design DNA Extraction engine launched. |
+| **Q3 2026** | **Global API Node** | 🚀 Active | Deploying headless generation API for B2B partners and multi-node agent distribution. |
+| **Q4 2026** | **E-commerce Core** | ⏳ Planned | Expansion of design extraction into complex transactional layouts and dashboards. |
+| **2027** | **Self-Optimization** | 🔮 Vision | Autonomous agents that self-correct UI based on real traffic for maximum conversions. |
+

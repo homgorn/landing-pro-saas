@@ -71,3 +71,14 @@ El sistema utiliza un ciclo de 5 etapas para garantizar la calidad:
 - **Email:** [refetur.net@gmail.com](mailto:refetur.net@gmail.com?subject=Inquiry%3A%20Landing%20Pro%20SaaS)
 - **Telegram:** [@realhikaz](https://t.me/realhikaz)
 - **WhatsApp:** [+77054384888](https://wa.me/77054384888?text=Hola%2C%20estoy%20interesado%20en%20una%20asociaci%C3%B3n%20para%20Landing%20Pro%20SaaS.)
+
+---
+
+## 🗺 Hoja de Ruta Estratégica 2026-2027
+
+| Fase | Hito | Estado | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Q2 2026** | **Genesis & MAO Alpha** | ✅ Hecho | Lanzamiento de la arquitectura central de orquestación multi-agente. |
+| **Q3 2026** | **Global API Node** | 🚀 Activo | Despliegue de API para generación masiva y distribución de agentes. |
+| **Q4 2026** | **E-commerce Core** | ⏳ Planeado | Extensión a diseños transaccionales complejos y paneles de control. |
+| **2027** | **Self-Optimization** | 🔮 Visión | Agentes autónomos que optimizan la UI basados en tráfico real. |

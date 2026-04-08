@@ -73,7 +73,7 @@
             <p>Проприетарная мультиагентная оркестрация (MAO™), обеспечивающая колоссальную эффективность.</p>
         </div>
 
-        <section class="services-grid">
+        <section class="services-grid reveal">
             <div class="service-card">
                 <div class="visual-placeholder">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><path d="M12 2v10"/><path d="M18.4 6.9c.8.7 1.2 1.7 1.1 2.8-.2 1.1-.9 2.1-1.9 2.6s-2.1.5-3.1 0-1.7-1.5-1.9-2.6-1.1-2.1-.2-2.8"/></svg>
@@ -97,12 +97,12 @@
             </div>
         </section>
 
-        <section class="section-title">
+        <section class="section-title reveal">
             <h2>Проблема vs Решение</h2>
             <p>Почему мы меняем правила игры на рынке объемом $50 млрд.</p>
         </section>
 
-        <section class="problem-solution">
+        <section class="problem-solution reveal">
             <div class="ps-card problem">
                 <h4>Традиционное производство</h4>
                 <ul>
@@ -123,22 +123,23 @@
             </div>
         </section>
 
-        <section id="investment" class="investment-box">
+        <section id="investment" class="investment-box reveal">
             <h2>Инвестиционное Видение</h2>
             <p>Мы находимся на стадии <strong>ранней Альфы</strong> и активно ищем стратегических партнеров и первые инвестиции для масштабирования нашей мультиагентной фабрики в глобальный B2B инструмент.</p>
-            <div class="cta-group">
-                <a href="mailto:investment@landing-pro.saas" class="btn btn-primary">Связаться с основателями</a>
-                <a href="https://github.com/homgorn/landing-pro-saas" class="btn btn-secondary">Аудит исходного кода</a>
+            <div class="cta-group" style="flex-wrap: wrap;">
+                <a href="mailto:refetur.net@gmail.com?subject=%D0%A1%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%3A%20Landing%20Pro%20SaaS&body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9F%D0%B8%D1%88%D1%83%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B9%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20Landing%20Pro%20SaaS." class="btn btn-primary">Написать Founder-у</a>
+                <a href="https://wa.me/77054384888?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9F%D0%B8%D1%88%D1%83%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B9%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20Landing%20Pro%20SaaS." class="btn btn-secondary">WhatsApp</a>
+                <a href="https://t.me/realhikaz" class="btn btn-secondary">Telegram</a>
             </div>
             <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 2rem;">Общий целевой рынок (TAM): $50 млрд+ в индустрии веб-дизайна и маркетинга.</p>
         </section>
 
-        <section class="section-title">
+        <section class="section-title reveal">
             <h2>Стратегический Roadmap</h2>
             <p>Наш путь к 100,000 автономных сайтов.</p>
         </section>
 
-        <section class="roadmap">
+        <section class="roadmap reveal">
             <div class="roadmap-item">
                 <div class="roadmap-date">Q2 2026</div>
                 <div class="roadmap-content">
@@ -162,7 +163,7 @@
             </div>
         </section>
 
-        <footer class="seo-footer">
+        <footer class="seo-footer reveal">
             <div class="footer-grid">
                 <div class="footer-col">
                     <h4>Центр Стартапа</h4>
@@ -196,5 +197,17 @@
             <p>&copy; 2026 Landing Pro SaaS | Pitch Deck Version | Build 27c | <a href="https://github.com/homgorn" style="color:var(--primary)">homgorn</a></p>
         </div>
     </div>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>

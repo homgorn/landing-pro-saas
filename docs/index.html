@@ -73,7 +73,7 @@
             <p>Proprietary Multi-Agent Orchestration (MAO™) driving massive efficiency.</p>
         </div>
 
-        <section class="services-grid">
+        <section class="services-grid reveal">
             <div class="service-card">
                 <div class="visual-placeholder">
                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><path d="M12 2v10"/><path d="M18.4 6.9c.8.7 1.2 1.7 1.1 2.8-.2 1.1-.9 2.1-1.9 2.6s-2.1.5-3.1 0-1.7-1.5-1.9-2.6-1.1-2.1-.2-2.8"/></svg>
@@ -97,12 +97,12 @@
             </div>
         </section>
 
-        <section class="section-title">
+        <section class="section-title reveal">
             <h2>Problem vs Solution</h2>
             <p>Why we are disrupting a $50B market.</p>
         </section>
 
-        <section class="problem-solution">
+        <section class="problem-solution reveal">
             <div class="ps-card problem">
                 <h4>Traditional Production</h4>
                 <ul>
@@ -123,22 +123,23 @@
             </div>
         </section>
 
-        <section id="investment" class="investment-box">
+        <section id="investment" class="investment-box reveal">
             <h2>Investment & Scaling Vision</h2>
             <p>We are currently in the <strong>Early Alpha Stage</strong> and actively seeking strategic partnerships and initial investment to scale our Multi-Agent Factory into a global B2B powerhouse.</p>
-            <div class="cta-group">
-                <a href="mailto:investment@landing-pro.saas" class="btn btn-primary">Contact Founders</a>
-                <a href="https://github.com/homgorn/landing-pro-saas" class="btn btn-secondary">Audit Source Code</a>
+            <div class="cta-group" style="flex-wrap: wrap;">
+                <a href="mailto:refetur.net@gmail.com?subject=Partnership%20Inquiry%3A%20Landing%20Pro%20SaaS&body=Hello%2C%20I%27m%20interested%20in%20discussing%20a%20partnership%20for%20Landing%20Pro%20SaaS." class="btn btn-primary">Email Founder</a>
+                <a href="https://wa.me/77054384888?text=Hello%2C%20I%27m%20interested%20in%20discussing%20a%20partnership%20for%20Landing%20Pro%20SaaS." class="btn btn-secondary">WhatsApp</a>
+                <a href="https://t.me/realhikaz" class="btn btn-secondary">Telegram</a>
             </div>
             <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 2rem;">Total Addressable Market (TAM): $50B+ Web Design & Marketing Industry.</p>
         </section>
 
-        <section class="section-title">
+        <section class="section-title reveal">
             <h2>Strategic Roadmap</h2>
             <p>Our journey to 100,000 autonomous sites.</p>
         </section>
 
-        <section class="roadmap">
+        <section class="roadmap reveal">
             <div class="roadmap-item">
                 <div class="roadmap-date">Q2 2026</div>
                 <div class="roadmap-content">
@@ -162,7 +163,7 @@
             </div>
         </section>
 
-        <footer class="seo-footer">
+        <footer class="seo-footer reveal">
             <div class="footer-grid">
                 <div class="footer-col">
                     <h4>Startup Hub</h4>
@@ -196,5 +197,17 @@
             <p>&copy; 2026 Landing Pro SaaS | Pitch Deck Version | Build 27c | <a href="https://github.com/homgorn" style="color:var(--primary)">homgorn</a></p>
         </div>
     </div>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
